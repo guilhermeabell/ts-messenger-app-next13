@@ -85,18 +85,21 @@ const socialAction = (action: string) => {
           label="Name"
           register={register}
           errors={errors}
+          disabled={isLoading}
           />
           <Input
           id="email"
           label="Email address"
           register={register}
           errors={errors}
+          disabled={isLoading}
           />
           <Input
           id="password"
           label="Password"
           register={register}
           errors={errors}
+          disabled={isLoading}
           />
           </>
           )}
